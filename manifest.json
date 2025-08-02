@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Omni Search",
+  "version": "1.0.0",
+  "description": "Direct search in Notion from Chrome address bar",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.notion.so/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Notion Omni Search"
+  }
+}

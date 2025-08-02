@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin: 0 0 16px 0;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 14px;
+            margin: 0 0 8px 0;
+            color: #666;
+        }
+
+        .instruction {
+            background: #f5f5f5;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .code {
+            background: #e8e8e8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 12px;
+            overflow-wrap: break-word;
+            word-break: break-all;
+        }
+
+        .step {
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><img src="icon128.png" alt="Notion Omni Search" style="width: 20px; height: 20px;"> Notion Omni Search</h1>
+
+    <div class="section">
+        <h2>Setup Instructions</h2>
+        <div class="instruction">
+            <div class="step">
+                <strong>1.</strong> Open Chrome <strong>Settings</strong>
+                <br> → <strong>Search engines</strong>
+                <br> → <strong>Manage search engines and site search</strong>
+            </div>
+            <div class="step">
+                <strong>2.</strong> Click <strong>Add</strong> to create a <strong>Site Search</strong>
+            </div>
+            <div class="step">
+                <strong>3.</strong> Fill in the details:
+                <br><strong>Search engine:</strong> Notion Search
+                <br><strong>Shortcut:</strong> <span class="code">ns</span>
+                <br><strong>URL:</strong>
+                <span class="code">https://www.notion.so/?nos=%s</span>
+                <br>or you want to search in a specific workspace<br>
+                <span class="code">https://www.notion.so/WORKSPACE_ID?nos=%s</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>How to Use</h2>
+        <div class="instruction">
+            <div class="step">
+                <strong>1.</strong> In Chrome address bar, type: <span class="code">ns</span>
+            </div>
+            <div class="step">
+                <strong>2.</strong> Press <span class="code">Tab</span> or <span class="code">Space</span>
+            </div>
+            <div class="step">
+                <strong>3.</strong> Type your search keyword
+            </div>
+            <div class="step">
+                <strong>4.</strong> Press <span class="code">Enter</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
