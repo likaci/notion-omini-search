@@ -3,7 +3,7 @@
   "name": "Notion Omni Search",
   "version": "1.0.0",
   "description": "Direct search in Notion from Chrome address bar",
-  "permissions": ["activeTab"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["*://*.notion.so/*"],

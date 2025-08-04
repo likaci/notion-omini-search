@@ -3,6 +3,9 @@
 Search Notion from Chrome address bar or Raycast   
 [![](http://img.youtube.com/vi/8tFqvmptebg/maxresdefault.jpg)](https://www.youtube.com/watch?v=8tFqvmptebg)
 
+## Install
+https://chromewebstore.google.com/detail/notion-omni-search/hgppecbkfimaanihgkihhdceimmhodgg
+
 ## Setup Instructions
 1. Open Chrome `Settings` → `Search engines` → `Manage search engines and site search`
 2. Click `Add` to create a `Site Search`
