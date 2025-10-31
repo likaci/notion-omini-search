@@ -1,7 +1,7 @@
 const TAG = 'Notion Omni Search';
 const SEARCH_KEYWORD_PARAM = 'nos';
 const SEARCH_BUTTON_ICON_SELECTOR = '.magnifyingGlass';
-const SEARCH_INPUT_ICON_SELECTOR = '.search'
+const SEARCH_INPUT_ICON_SELECTOR = '.notion-dialog input[type="text"]'
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
