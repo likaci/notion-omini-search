@@ -69,7 +69,7 @@ async function search(keyword) {
 
     let tryCount = 0;
     let searchButtonIcon = document.querySelector(SEARCH_BUTTON_ICON_SELECTOR);
-    while (!searchButtonIcon && tryCount < 10) {
+    while (!searchButtonIcon && tryCount < 50) {
         searchButtonIcon = document.querySelector(SEARCH_BUTTON_ICON_SELECTOR);
         tryCount++;
         await sleep(100);
@@ -88,7 +88,7 @@ async function search(keyword) {
 
     tryCount = 0;
     let searchInputIcon = document.querySelector(SEARCH_INPUT_ICON_SELECTOR);
-    while (!searchInputIcon && tryCount < 10) {
+    while (!searchInputIcon && tryCount < 100) {
         searchInputIcon = document.querySelector(SEARCH_INPUT_ICON_SELECTOR);
         tryCount++;
         await sleep(100);
